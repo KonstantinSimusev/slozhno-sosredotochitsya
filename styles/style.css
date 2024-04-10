@@ -114,8 +114,8 @@
 
 /* MAIN SECTION */
 
-main {
-  min-block-size: calc(5355 / 16 * 1rem);
+.card-image {
+  inline-size: 350px;
 }
 
 /* FOOTER */

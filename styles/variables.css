@@ -4,19 +4,25 @@
 */
 
 :root {
+
   --main-font: 'IBM Plex mono';
-  --dynamic-bg: url(../images/cover-image-dark.png);
-  --text-color: #f1b2ce;
+
+  --main-background-image: url(../images/cover-image-dark.png);
+  --main-text-color: #f1b2ce;
   --second-text-color: #000028;
+
+  --decorated-zone-color: #ff0070;
+  --decorated-text-color: #ff0070;
+
+  --menu-color: #ff0070;
   --title-color: #db00ff;
+  --title-shadow: #ff0070;
   --accent-color: #ff0070;
-  --text-size: 1.125rem;
-  --dynamic-padding: clamp(0.625rem, 0.0271rem + 2.551vw, 1.25rem);
+ 
+  --main-text-size: 1.125rem;
+  --position: calc(10 / 16 * 1rem);
+
   --sm-dynamic-font: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --xl-dynamic-font: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  --border-decor: 1px solid var(--accent-color, #ff0070);
-  --sm-text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
-  --xl-text-shadow: 4px 4px 0 var(--accent-color, #ff0070);
-  --box-shadow: 0 0 4px 4px var(--accent-color, #ff0070);
 
 }

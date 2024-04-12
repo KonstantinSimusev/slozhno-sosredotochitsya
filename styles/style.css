@@ -7,10 +7,9 @@
   color: var(--main-text-color);
   font-family: var(--main-font, Arial, sans-serif);
   font-size: var(--main-text-size);
-  background-color: var(--main-bg-color);
-  /* background-image: var(--main-background-image); */
-  /* background-position: center;
-  background-size: cover; */
+  background-image: var(--main-background-image);
+  background-position: center;
+  background-size: cover;
   background-attachment: fixed;
 }
 
@@ -23,9 +22,6 @@
   align-items: center;
   padding: calc(10 / 16 * 1rem);
   min-block-size: calc(668 / 16 * 1rem);
-  background-image: var(--main-background-image);
-  background-position: center;
-  background-size: cover;
 }
 
 .decorated-zone {
@@ -136,6 +132,7 @@
   display: grid;
   gap: calc(50 / 16 * 1rem);
   padding-inline: calc(10 / 16 * 1rem);
+  background-color: var(--main-bg-color);
 }
 
 .control,

@@ -4,6 +4,19 @@
   переключая тему
 */
 
+:root.theme_light {
+  --main-background-color: var(--white-color, #fff1f7);
+  --main-background-image: url(../images/cover-image-light.png);
+  --main-text-color: var(--gray-color, #353430);
+  --decorated-zone-color: var(--gray-color, #353430);
+  --decorated-text-color: transparent;
+  --second-text-color: var(--gray-color, #353430);
+  --title-color: var(--violet-color, #ffc2e6);
+  --accent-color: var(--magenta-color, #ff8dcb);
+  --content-title-color: var(--gray-color, #353430);
+  --content-link-shadow-color: var(--magenta-color, #ff8dcb);
+}
+
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
@@ -20,5 +33,22 @@
   --content-title-color: var(--gray-color, #353430);
   --content-link-shadow-color: var(--magenta-color, #ff8dcb);
 
-  transition: all 1.5s;
+  /* transition: all 1.5s; */
+}
+
+@media (prefers-color-scheme: light) {
+  .page {
+    --main-background-color: var(--white-color, #fff1f7);
+    --main-background-image: url(../images/cover-image-light.png);
+    --main-text-color: var(--gray-color, #353430);
+    --decorated-zone-color: var(--gray-color, #353430);
+    --decorated-text-color: transparent;
+    --second-text-color: var(--gray-color, #353430);
+    --title-color: var(--violet-color, #ffc2e6);
+    --accent-color: var(--magenta-color, #ff8dcb);
+    --content-title-color: var(--gray-color, #353430);
+    --content-link-shadow-color: var(--magenta-color, #ff8dcb);
+  
+    transition: all 1.5s;
+  }
 }

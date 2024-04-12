@@ -7,6 +7,7 @@
   color: var(--main-text-color);
   font-family: var(--main-font, Arial, sans-serif);
   font-size: var(--main-text-size);
+  background-color: #000028;
   background-image: var(--main-background-image);
   background-position: center;
   background-size: cover;
@@ -339,7 +340,7 @@
 
 /* МЕДИАЗАПРОСЫ ДЛЯ ПРЕДПОЧТЕНИЙ ПОЛЬЗОВАТЕЛЯ */
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   .page {
     --main-bg-color: var(--black-color, #000028);
     --main-background-image: url(../images/cover-image-dark.png);
@@ -354,9 +355,9 @@
 
     transition: all 1.5s;
   }
-} */
+}
 
-/* @media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: light) {
   .page {
     --main-bg-color: var(--white-color, #fff1f7);
     --main-background-image: url(../images/cover-image-light.png);
@@ -371,4 +372,4 @@
   
     transition: all 1.5s;
   }
-} */
+}

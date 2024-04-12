@@ -23,7 +23,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --main-bg-color: var(--black-color, #000028);
-  /* --main-background-image: url(../images/cover-image-dark.png); */
+  --main-background-image: url(../images/cover-image-dark.png);
   --main-text-color: var(--pink-color, #f1b2ce);
   --decorated-zone-color: var(--red-color, #ff0070);
   --decorated-text-color: var(--red-color, #ff0070);

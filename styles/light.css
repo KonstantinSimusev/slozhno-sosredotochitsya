@@ -23,7 +23,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --main-bg-color: var(--white-color, #fff1f7);
-  /* --main-background-image: url(../images/cover-image-light.png); */
+  --main-background-image: url(../images/cover-image-light.png);
   --main-text-color: var(--gray-color, #353430);
   --decorated-zone-color: var(--gray-color, #353430);
   --decorated-text-color: transparent;

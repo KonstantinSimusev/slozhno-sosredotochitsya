@@ -4,6 +4,7 @@
 */
 
 :root {
+  --white-color: #fff1f7;
   --pink-color: #f1b2ce;
   --red-color: #ff0070;
   --magenta-color: #ff8dcb;
@@ -12,6 +13,7 @@
   --gray-color: #353430;
   --black-color: #000028;
 
+  --main-background-color: var(--black-color, #000028);
   --main-text-color: var(--pink-color, #f1b2ce);
   --second-text-color: var(--black-color, #000028);
   --content-title-color: var(--red-color, #ff0070);
@@ -20,8 +22,9 @@
   --decorated-text-color: var(--red-color, #ff0070);
 
   --title-color: var(--purple-color, #db00ff);
-  --title-shadow: var(--red-color, #ff0070);
-  --title-shadow-light: var(--magenta-color, #ff8dcb);
+  --title-shadow-color: var(--red-color, #ff0070);
+  --title-shadow-light-color: var(--magenta-color, #ff8dcb);
+  --content-link-shadow-color: var(--red-color, #ff0070);
   --accent-color: var(--red-color, #ff0070);
 
   --main-font: 'IBM Plex mono';

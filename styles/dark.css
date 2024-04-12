@@ -4,8 +4,8 @@
   переключая тему
 */
 
-:root.theme_dark {
-  --main-background-color: var(--black-color, #000028);
+/* :root.theme_dark {
+  --main-bg-color: var(--black-color, #000028);
   --main-background-image: url(../images/cover-image-dark.png);
   --main-text-color: var(--pink-color, #f1b2ce);
   --decorated-zone-color: var(--red-color, #ff0070);
@@ -15,15 +15,15 @@
   --accent-color: var(--red-color, #ff0070);
   --content-title-color: var(--red-color, #ff0070);
   --content-link-shadow-color: var(--red-color, #ff0070);
-}
+} */
 
 .page.theme_dark {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --main-background-color: var(--black-color, #000028);
-  --main-background-image: url(../images/cover-image-dark.png);
+  --main-bg-color: var(--black-color, #000028);
+  /* --main-background-image: url(../images/cover-image-dark.png); */
   --main-text-color: var(--pink-color, #f1b2ce);
   --decorated-zone-color: var(--red-color, #ff0070);
   --decorated-text-color: var(--red-color, #ff0070);
@@ -33,12 +33,12 @@
   --content-title-color: var(--red-color, #ff0070);
   --content-link-shadow-color: var(--red-color, #ff0070);
 
-  /* transition: all 1.5s; */
+  transition: all 1.5s;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   .page {
-    --main-background-color: var(--black-color, #000028);
+    --main-bg-color: var(--black-color, #000028);
     --main-background-image: url(../images/cover-image-dark.png);
     --main-text-color: var(--pink-color, #f1b2ce);
     --decorated-zone-color: var(--red-color, #ff0070);
@@ -49,6 +49,6 @@
     --content-title-color: var(--red-color, #ff0070);
     --content-link-shadow-color: var(--red-color, #ff0070);
 
-    /* transition: all 1.5s; */
+    transition: all 1.5s;
   }
-}
+} */

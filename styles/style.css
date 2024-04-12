@@ -7,8 +7,8 @@
   color: var(--main-text-color);
   font-family: var(--main-font, Arial, sans-serif);
   font-size: var(--main-text-size);
-  background-color: var(--main-background-color);
-  background-image: var(--main-background-image);
+  background-color: var(--main-bg-color);
+  /* background-image: var(--main-background-image); */
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -258,9 +258,6 @@
     padding-inline: calc(20 / 16 * 1rem);
   }
 
-  .instruction {
-    grid-template-columns: minmax(236px, 315px) minmax(472px, 648px);
-  }
 }
 
 @media (width <= 768px) {
@@ -287,6 +284,10 @@
 
 @media (width >= 768px) {
   .control {
+    grid-template-columns: minmax(236px, 315px) minmax(472px, 648px);
+  }
+
+  .instruction {
     grid-template-columns: minmax(236px, 315px) minmax(472px, 648px);
   }
 }
@@ -340,7 +341,7 @@
 
 /* @media (prefers-color-scheme: dark) {
   .page {
-    --main-background-color: var(--black-color, #000028);
+    --main-bg-color: var(--black-color, #000028);
     --main-background-image: url(../images/cover-image-dark.png);
     --main-text-color: var(--pink-color, #f1b2ce);
     --decorated-zone-color: var(--red-color, #ff0070);
@@ -357,7 +358,7 @@
 
 /* @media (prefers-color-scheme: light) {
   .page {
-    --main-background-color: var(--white-color, #fff1f7);
+    --main-bg-color: var(--white-color, #fff1f7);
     --main-background-image: url(../images/cover-image-light.png);
     --main-text-color: var(--gray-color, #353430);
     --decorated-zone-color: var(--gray-color, #353430);

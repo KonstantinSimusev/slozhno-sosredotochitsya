@@ -13,7 +13,7 @@
   --gray-color: #353430;
   --black-color: #000028;
 
-  --main-background-color: var(--black-color, #000028);
+  --main-bg-color: var(--black-color, #000028);
   --main-text-color: var(--pink-color, #f1b2ce);
   --second-text-color: var(--black-color, #000028);
   --content-title-color: var(--red-color, #ff0070);

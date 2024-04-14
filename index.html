@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="./styles/dark.css" />
     <link rel="stylesheet" href="./styles/light.css" />
   </head>
+
   <body class="page">
     <div class="wrapper theme_dark theme_light">
       <header class="header decorated-zone">
@@ -239,19 +240,59 @@
           <h3 class="picture__title title-decor">А можно в картинках?</h3>
           <ul class="picture__list">
             <li class="picture__list-item picture__sunset">
-              <img class="image" src="./images/sunset.png" alt="" />
+              <picture>
+                <source srcset="./images/sunset.webp" type="image/webp" />
+                <img
+                  class="image-card"
+                  src="./images/sunset.png"
+                  alt="Рисунок заката на море. "
+                  loading="lazy"
+                />
+              </picture>
             </li>
             <li class="picture__list-item picture__ice-cream">
-              <img class="image" src="./images/ice-cream.png" alt="" />
+              <picture>
+                <source srcset="./images/ice-cream.webp" type="image/webp" />
+                <img
+                  class="image-card"
+                  src="./images/ice-cream.png"
+                  alt="Рисунок шариков мороженного в желтой миске. "
+                  loading="lazy"
+                />
+              </picture>
             </li>
             <li class="picture__list-item picture__tape">
-              <img class="image" src="./images/tape.png" alt="" />
+              <picture>
+                <source srcset="./images/tape.webp" type="image/webp" />
+                <img
+                  class="image-card"
+                  src="./images/tape.png"
+                  alt="Рисунок касеты для магнитофона. "
+                  loading="lazy"
+                />
+              </picture>
             </li>
             <li class="picture__list-item picture__books">
-              <img class="image" src="./images/books.png" alt="" />
+              <picture>
+                <source srcset="./images/books.webp" type="image/webp" />
+                <img
+                  class="image-card"
+                  src="./images/books.png"
+                  alt="Рисунок кружки на стопке книг. "
+                  loading="lazy"
+                />
+              </picture>
             </li>
             <li class="picture__list-item picture__street">
-              <img class="image" src="./images/street.png" alt="" />
+              <picture>
+                <source srcset="./images/street.webp" type="image/webp" />
+                <img
+                  class="image-card"
+                  src="./images/street.png"
+                  alt="Рисонок улицы с магазинами. "
+                  loading="lazy"
+                />
+              </picture>
             </li>
           </ul>
         </section>

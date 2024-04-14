@@ -1,10 +1,10 @@
 /*
-  Переменные для вашего проекта
+  Переменные для проекта
   и их переопределение под различные устройства
 */
 
 :root {
-  /* Цвет для темной темы */
+  /* Цвет для тёмной темы */
   --pink-color: #f1b2ce;
   --purple-color: #db00ff;
   --gray-color: #353430;
@@ -19,7 +19,7 @@
   /* Общий цвет */
   --red-color: #ff0070;
 
-  /* Переменные для темной темы */
+  /* Переменные для тёмной темы */
   --page-font: 'IBM Plex mono';
   --page-text-color: var(--pink-color, #f1b2ce);
   --page-second-text-color: var(--black-color, #000028);
@@ -34,7 +34,7 @@
   --content-background-color: var(--black-color, #000028);
   --content-title-color: var(--red-color, #ff0070);
   --content-link-shadow-color: var(--red-color, #ff0070);
-  
+
   --accent-color: var(--red-color, #ff0070);
 
   /* Переменные для светлой темы */
@@ -42,4 +42,9 @@
 
   /* Общие переменные */
   --position: clamp(0.625rem, -1.25rem + 8vw, 1.25rem);
+
+  /* Переменная для фона страницы в webp-формате */
+  --page-background-image-webp: image-set(
+    url("../images/cover-image-dark.webp") type("image/webp"),
+    url("../images/cover-image-dark.png") type("image/png"));
 }

@@ -42,9 +42,4 @@
 
   /* Общие переменные */
   --position: clamp(0.625rem, -1.25rem + 8vw, 1.25rem);
-
-  /* Переменная для фона страницы в webp-формате */
-  --page-background-image-webp: image-set(
-    url("../images/cover-image-dark.webp") type("image/webp"),
-    url("../images/cover-image-dark.png") type("image/png"));
 }

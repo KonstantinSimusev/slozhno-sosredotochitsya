@@ -9,16 +9,33 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --main-bg-color: var(--black-color, #000028);
-  --main-background-image: url(../images/cover-image-dark.png);
-  --main-text-color: var(--pink-color, #f1b2ce);
+  --page-text-color: var(--pink-color, #f1b2ce);
+  --page-second-text-color: var(--black-color, #000028);
+  --page-background-image: url(../images/cover-image-dark.png);
+  --page-title-color: var(--purple-color, #db00ff);
   --decorated-zone-color: var(--red-color, #ff0070);
-  --decorated-text-color: var(--red-color, #ff0070);
-  --second-text-color: var(--black-color, #000028);
-  --title-color: var(--purple-color, #db00ff);
-  --accent-color: var(--red-color, #ff0070);
+  --content-background-color: var(--black-color, #000028);
   --content-title-color: var(--red-color, #ff0070);
   --content-link-shadow-color: var(--red-color, #ff0070);
+  --accent-color: var(--red-color, #ff0070);
 
   transition: all 1s;
+}
+
+.page.theme_dark .decorated-text {
+  display: block;
+}
+
+.page.theme_dark .header__title-shadow {
+  text-shadow: 4px 4px 0 var(--red-color, #ff0070);
+}
+
+.page.theme_dark .footer__title-shadow {
+  text-shadow: 2px 2px 0 var(--red-color, #ff0070);
+}
+
+@media (prefers-color-scheme: dark) {
+  .page {
+    transition: all 1s;
+  }
 }

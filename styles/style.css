@@ -162,7 +162,7 @@
 
 .card__title,
 .picture__title {
-  margin-block-end: calc(9 / 16 * 1rem);
+  margin-block-end: calc(10 / 16 * 1rem);
   color: var(--page-second-text-color);
   font-size: inherit;
 }
@@ -267,7 +267,7 @@
 
   .picture__sunset {
     grid-column: 1 / 3;
-    block-size: minmax(192px, 260px); 
+    block-size: minmax(192px, 260px);
   }
 
   .picture__ice-cream {

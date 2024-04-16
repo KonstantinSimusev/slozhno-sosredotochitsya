@@ -265,7 +265,7 @@
   outline: 1px solid currentColor;
 }
 
-.header__theme-menu-button_active {
+.header__theme-menu-button:disabled {
   pointer-events: none;
 }
 

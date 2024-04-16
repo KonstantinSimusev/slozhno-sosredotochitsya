@@ -32,8 +32,16 @@
 
 @media (prefers-color-scheme: dark) {
   .page {
+    --page-text-color: var(--pink-color, #f1b2ce);
+    --page-second-text-color: var(--black-color, #000028);
     --page-background-image: url(../images/cover-image-dark.png);
+    --page-title-color: var(--purple-color, #db00ff);
+    --decorated-zone-color: var(--red-color, #ff0070);
     --content-background-color: var(--black-color, #000028);
+    --content-title-color: var(--red-color, #ff0070);
+    --content-link-shadow-color: var(--red-color, #ff0070);
+    --accent-color: var(--red-color, #ff0070);
+  
     transition: all 1s;
   }
 }

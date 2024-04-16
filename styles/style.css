@@ -5,6 +5,7 @@
   color: var(--page-text-color);
   font-family: var(--page-font, Arial, sans-serif);
   font-size: var(--page-text-size);
+  background-color: var(--black-color, #000028);
   background-image: var(--page-background-image);
   background-position: center;
   background-size: cover;

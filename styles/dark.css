@@ -32,6 +32,8 @@
 
 @media (prefers-color-scheme: dark) {
   .page {
+    --page-background-image: url(../images/cover-image-dark.png);
+    --content-background-color: var(--black-color, #000028);
     transition: all 1s;
   }
 }

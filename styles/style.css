@@ -190,10 +190,6 @@
   cursor: pointer;
 }
 
-.picture {
-  display: grid;
-}
-
 /* PICTURE SECTION */
 
 .picture__title {
@@ -205,12 +201,30 @@
   gap: clamp(0.625rem, -1.25rem + 8vw, 1.25rem);
 }
 
-.image-card {
-  display: flex;
-  object-fit: cover;
-  object-position: center;
-  inline-size: 100%;
-  block-size: 100%;
+.picture__list-item {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.picture__sunset {
+  background-image: url(../images/sunset.png);
+}
+
+.picture__ice-cream {
+  background-image: url(../images/ice-cream.png);
+}
+
+.picture__tape {
+  background-image: url(../images/tape.png);
+}
+
+.picture__books {
+  background-image: url(../images/books.png);
+}
+
+.picture__street {
+  background-image: url(../images/street.png);
 }
 
 /* FOOTER */
@@ -242,11 +256,15 @@
   border-block-end: 1px solid currentColor;
 }
 
+.header__theme-menu-item:has(.header__theme-menu-button_active) {
+  border: 1px solid currentColor;
+}
+
 .header__theme-menu-button:hover {
   outline: 1px solid currentColor;
 }
 
-.header__theme-menu-button:disabled {
+.header__theme-menu-button_active {
   pointer-events: none;
 }
 
@@ -256,6 +274,55 @@
 }
 
 /* МЕДИАЗАПРОСЫ ДЛЯ БРЕЙКПОИНТОВ */
+
+@media (width <= 500px) {
+  .picture__sunset {
+    block-size: clamp(8.875rem, 0.8125rem + 34.4vw, 11.5625rem);
+  }
+
+  .picture__ice-cream,
+  .picture__books {
+    block-size: clamp(22.1875rem, -5rem + 116vw, 31.25rem);
+  }
+
+  .picture__tape,
+  .picture__street {
+    block-size: clamp(14.8125rem, 2.8125rem + 51.2vw, 18.8125rem);
+  }
+}
+
+@media (width > 500px) {
+  .picture__list {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:
+      clamp(8.75rem, 2.7465rem + 19.1729vw, 11.9375rem)
+      clamp(8.75rem, -1.7267rem + 33.4586vw, 14.3125rem)
+      clamp(14.8125rem, 5.3952rem + 30.0752vw, 19.8125rem);
+    gap: 20px;
+  }
+
+  .picture__sunset {
+    grid-column: 1 / 3;
+  }
+
+  .picture__ice-cream {
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+  }
+
+  .picture__books {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  .picture__tape {
+    grid-row: 2 / 4;
+  }
+
+  .picture__street {
+    grid-column: 2 / 4;
+  }
+}
 
 @media (width > 768px) {
   .header,
@@ -307,31 +374,15 @@
   }
 
   .picture__list {
-    grid-template-columns: repeat(3, minmax(229px, 314px));
-  }
-
-  .picture__sunset {
-    grid-column: 1 / 3;
-    block-size: minmax(192px, 260px);
-  }
-
-  .picture__ice-cream {
-    grid-column: 3 / 4;
-    grid-row: 1 / 3;
-  }
-
-  .picture__tape {
-    grid-row: 2 / 4;
-  }
-
-  .picture__street {
-    grid-column: 2 / 4;
+    grid-template-rows:
+      clamp(12rem, -0.8167rem + 26.6667vw, 16.25rem)
+      clamp(14.375rem, -1.6458rem + 33.3333vw, 19.6875rem)
+      clamp(19.875rem, -0.8578rem + 43.1373vw, 26.75rem);
   }
 }
 
-@media (500px < width <= 768px) {
+@media (500px <= width <= 768px) {
   .concentration .content__title {
     max-inline-size: calc(236 / 16 * 1rem);
   }
 }
-

@@ -11,7 +11,7 @@
   --page-title-color: var(--violet-color, #ffc2e6);
   --menu-border-hover-color: 1px solid rgb(50 49 45 / 0.4);
   --decorated-zone-color: var(--gray-color, #353430);
-  --content-background-color: var(--white-color, #fff1f7);
+  /* --content-background-color: var(--white-color, #fff1f7); */
   --content-title-color: var(--gray-color, #353430);
   --content-link-shadow-color: var(--magenta-color, #ff8dcb);
   --accent-color: var(--magenta-color, #ff8dcb);
@@ -38,7 +38,7 @@
     --page-title-color: var(--violet-color, #ffc2e6);
     --menu-border-hover-color: 1px solid rgb(50 49 45 / 0.4);
     --decorated-zone-color: var(--gray-color, #353430);
-    --content-background-color: var(--white-color, #fff1f7);
+    /* --content-background-color: var(--white-color, #fff1f7); */
     --content-title-color: var(--gray-color, #353430);
     --content-link-shadow-color: var(--magenta-color, #ff8dcb);
     --accent-color: var(--magenta-color, #ff8dcb);

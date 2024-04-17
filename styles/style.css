@@ -5,7 +5,7 @@
   color: var(--page-text-color);
   font-family: var(--page-font, Arial, sans-serif);
   font-size: var(--page-text-size);
-  background-color: var(--black-color, #000028);
+  /* background-color: var(--black-color, #000028); */
   background-image: var(--page-background-image);
   background-position: center;
   background-size: cover;
@@ -214,7 +214,7 @@
   position: relative;
   display: grid;
   min-block-size: calc(668 / 16 * 1rem);
-  background-color: var(--black-color, #000028);
+  /* background-color: var(--black-color, #000028); */
 }
 
 .footer__title {

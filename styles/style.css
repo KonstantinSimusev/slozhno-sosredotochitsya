@@ -12,16 +12,22 @@
 }
 
 .page::before {
-  /* content: '';
+  position: absolute;
+  z-index: -1;
+  content: '';
+  inset: 0;
   display: block;
-  inset: 0; */
-  /* background-color: var(--black-color, #000028); */
+  background-image: var(--page-background-image);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* HEADER */
 
 .header {
   position: relative;
+  z-index: 1;
   display: grid;
   grid-template-rows: 1fr auto 1fr;
   align-items: center;

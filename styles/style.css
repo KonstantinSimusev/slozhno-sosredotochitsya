@@ -2,10 +2,12 @@
 /* СТИЛИ ДЛЯ ТЁМНОЙ ТЕМЫ */
 
 .page {
+  position: relative;
+  z-index: 1;
   color: var(--page-text-color);
   font-family: var(--page-font, Arial, sans-serif);
   font-size: var(--page-text-size);
-  background-color: var(--content-background-color);
+  /* background-color: var(--content-background-color); */
   background-image: var(--page-background-image);
   background-position: center;
   background-size: cover;

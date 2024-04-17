@@ -7,7 +7,7 @@
 .page.theme_dark {
   --page-text-color: var(--pink-color, #f1b2ce);
   --page-second-text-color: var(--black-color, #000028);
-  --page-background-image: url(../images/cover-image-dark.png);
+  /* --page-background-image: url(../images/cover-image-dark.png); */
   --page-title-color: var(--purple-color, #db00ff);
   --menu-border-hover-color: 1px solid rgb(255 0 112 / 0.4);
   --decorated-zone-color: var(--red-color, #ff0070);
@@ -15,6 +15,8 @@
   --content-title-color: var(--red-color, #ff0070);
   --content-link-shadow-color: var(--red-color, #ff0070);
   --accent-color: var(--red-color, #ff0070);
+
+  background-image: url(../images/cover-image-dark.png);
 
   transition: all 1s;
 }
@@ -35,7 +37,7 @@
   .page {
     --page-text-color: var(--pink-color, #f1b2ce);
     --page-second-text-color: var(--black-color, #000028);
-    --page-background-image: url(../images/cover-image-dark.png);
+    /* --page-background-image: url(../images/cover-image-dark.png); */
     --page-title-color: var(--purple-color, #db00ff);
     --menu-border-hover-color: 1px solid rgb(255 0 112 / 0.4);
     --decorated-zone-color: var(--red-color, #ff0070);
@@ -43,6 +45,8 @@
     --content-title-color: var(--red-color, #ff0070);
     --content-link-shadow-color: var(--red-color, #ff0070);
     --accent-color: var(--red-color, #ff0070);
+
+    background-image: url(../images/cover-image-dark.png);
   
     transition: all 1s;
   }

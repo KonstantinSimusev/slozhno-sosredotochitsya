@@ -23,7 +23,7 @@
   --page-font: 'IBM Plex mono';
   --page-text-color: var(--pink-color, #f1b2ce);
   --page-second-text-color: var(--black-color, #000028);
-  --page-background-image: url(../images/cover-image-dark.png);
+  /* --page-background-image: url(../images/cover-image-dark.png); */
   --page-text-size: 1.125rem;
   --page-title-color: var(--purple-color, #db00ff);
   --page-title-shadow-color: var(--red-color, #ff0070);

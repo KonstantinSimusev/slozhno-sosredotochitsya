@@ -5,19 +5,7 @@
   color: var(--page-text-color);
   font-family: var(--page-font, Arial, sans-serif);
   font-size: var(--page-text-size);
-  /* background-image: var(--page-background-image);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed; */
-}
-
-.page::before {
-  position: absolute;
-  z-index: -1;
-  content: '';
-  inset: 0;
-  display: block;
-  background-image: var(--page-background-image);
+  background-image: url(../images/cover-image-dark.png);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;

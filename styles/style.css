@@ -5,6 +5,7 @@
   color: var(--page-text-color);
   font-family: var(--page-font, Arial, sans-serif);
   font-size: var(--page-text-size);
+  /* background-color: var(--content-background-color); */
   background-image: var(--page-background-image);
   background-position: center;
   background-size: cover;
@@ -141,7 +142,6 @@
   gap: clamp(3.125rem, -2.5rem + 24vw, 5rem);
   padding-inline: clamp(0.625rem, -1.25rem + 8vw, 1.25rem);
   padding-block: clamp(2.5rem, -1.25rem + 16vw, 3.75rem);
-  background-color: var(--content-background-color);
 }
 
 /* CONTROL SECTION */
@@ -201,30 +201,11 @@
   gap: clamp(0.625rem, -1.25rem + 8vw, 1.25rem);
 }
 
-.picture__list-item {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.picture__sunset {
-  background-image: url(../images/sunset.png);
-}
-
-.picture__ice-cream {
-  background-image: url(../images/ice-cream.png);
-}
-
-.picture__tape {
-  background-image: url(../images/tape.png);
-}
-
-.picture__books {
-  background-image: url(../images/books.png);
-}
-
-.picture__street {
-  background-image: url(../images/street.png);
+.image-card {
+  object-fit: cover;
+  object-position: center;
+  inline-size: 100%;
+  block-size: 100%;
 }
 
 /* FOOTER */
@@ -261,7 +242,7 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid currentColor;
+  border: var(--menu-border-hover-color);
 }
 
 .header__theme-menu-button:disabled {

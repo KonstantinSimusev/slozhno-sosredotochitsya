@@ -16,8 +16,6 @@
   --content-link-shadow-color: var(--red-color, #ff0070);
   --accent-color: var(--red-color, #ff0070);
 
-  background-image: url(../images/cover-image-dark.png);
-
   transition: all 1s;
 }
 
@@ -45,8 +43,6 @@
     --content-title-color: var(--red-color, #ff0070);
     --content-link-shadow-color: var(--red-color, #ff0070);
     --accent-color: var(--red-color, #ff0070);
-
-    background-image: url(../images/cover-image-dark.png);
   
     transition: all 1s;
   }

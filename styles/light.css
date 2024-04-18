@@ -16,8 +16,6 @@
   --content-link-shadow-color: var(--magenta-color, #ff8dcb);
   --accent-color: var(--magenta-color, #ff8dcb);
 
-  background-image: url(../images/cover-image-light.png);
-
   transition: all 1s;
 }
 
@@ -44,8 +42,6 @@
     --content-title-color: var(--gray-color, #353430);
     --content-link-shadow-color: var(--magenta-color, #ff8dcb);
     --accent-color: var(--magenta-color, #ff8dcb);
-
-    background-image: url(../images/cover-image-light.png);
   
     transition: all 1.5s;
   }

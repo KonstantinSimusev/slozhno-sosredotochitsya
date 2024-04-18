@@ -2,23 +2,24 @@
 /* СТИЛИ ДЛЯ ТЁМНОЙ ТЕМЫ */
 
 .page {
-  /* position: relative; */
+  position: relative;
   /* color: var(--page-text-color); */
   font-family: var(--page-font, Arial, sans-serif);
   /* font-size: var(--page-text-size); */
-  background-image: url(../images/cover-image-dark.png);
+  background-color: aqua;
+  /* background-image: url(../images/cover-image-dark.png); */
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
 
-/* .page::after {
+/* .page::before {
   content: '';
   position: absolute;
   z-index: -1;
   inset: 0;
   display: block;
-  background-image: url(../images/cover-image-dark.png);
+  background-color: url(../images/cover-image-dark.png);
   background-attachment: fixed;
 } */
 
@@ -226,7 +227,7 @@
 /* FOOTER */
 
 .footer {
-  /* position: relative; */
+  position: relative;
   display: grid;
   min-block-size: calc(668 / 16 * 1rem);
   background-color: #000028;

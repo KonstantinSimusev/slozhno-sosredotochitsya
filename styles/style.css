@@ -6,18 +6,6 @@
   /* color: var(--page-text-color); */
   font-family: var(--page-font, Arial, sans-serif);
   /* font-size: var(--page-text-size); */
-  /* background-image: url(../images/cover-image-dark.png); */
-  /* background-position: center;
-  background-size: cover; */
-  background-attachment: fixed;
-}
-
-.page::after {
-  content: '';
-  z-index: -1;
-  position: absolute;
-  display: block;
-  inset: 0;
   background-image: url(../images/cover-image-dark.png);
   background-position: center;
   background-size: cover;
@@ -154,6 +142,7 @@
   gap: clamp(3.125rem, -2.5rem + 24vw, 5rem);
   padding-inline: clamp(0.625rem, -1.25rem + 8vw, 1.25rem);
   padding-block: clamp(2.5rem, -1.25rem + 16vw, 3.75rem);
+  background-color: #000028;
 }
 
 /* CONTROL SECTION */
@@ -223,9 +212,10 @@
 /* FOOTER */
 
 .footer {
-  /* position: relative; */
+  position: relative;
   display: grid;
   min-block-size: calc(668 / 16 * 1rem);
+  background-color: #000028;
 }
 
 .footer__title {

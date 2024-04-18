@@ -2,9 +2,22 @@
 /* СТИЛИ ДЛЯ ТЁМНОЙ ТЕМЫ */
 
 .page {
+  position: relative;
   /* color: var(--page-text-color); */
   font-family: var(--page-font, Arial, sans-serif);
   /* font-size: var(--page-text-size); */
+  /* background-image: url(../images/cover-image-dark.png); */
+  /* background-position: center;
+  background-size: cover; */
+  background-attachment: fixed;
+}
+
+.page::after {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  display: block;
+  inset: 0;
   background-image: url(../images/cover-image-dark.png);
   background-position: center;
   background-size: cover;

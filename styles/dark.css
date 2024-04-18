@@ -5,43 +5,43 @@
 */
 
 .page.theme_dark {
-  /* --page-text-color: var(--pink-color, #f1b2ce);
-  --page-second-text-color: var(--black-color, #000028); */
-  /* --page-background-image: url(../images/cover-image-dark.png); */
-  /* --page-title-color: var(--purple-color, #db00ff);
+  --page-text-color: var(--pink-color, #f1b2ce);
+  --page-second-text-color: var(--black-color, #000028);
+  --page-background-image: url(../images/cover-image-dark.png);
+  --page-title-color: var(--purple-color, #db00ff);
   --menu-border-hover-color: 1px solid rgb(255 0 112 / 0.4);
   --decorated-zone-color: var(--red-color, #ff0070);
   --content-title-color: var(--red-color, #ff0070);
   --content-link-shadow-color: var(--red-color, #ff0070);
   --accent-color: var(--red-color, #ff0070);
 
-  transition: all 1s; */
+  transition: all 1s;
 }
 
 .page.theme_dark .decorated-text {
-  /* display: block; */
+  display: block;
 }
 
 .page.theme_dark .header__title-shadow {
-  /* text-shadow: 4px 4px 0 var(--red-color, #ff0070); */
+  text-shadow: 4px 4px 0 var(--red-color, #ff0070);
 }
 
 .page.theme_dark .footer__title-shadow {
-  /* text-shadow: 2px 2px 0 var(--red-color, #ff0070); */
+  text-shadow: 2px 2px 0 var(--red-color, #ff0070);
 }
 
 @media (prefers-color-scheme: dark) {
   .page {
-    /* --page-text-color: var(--pink-color, #f1b2ce);
-    --page-second-text-color: var(--black-color, #000028); */
-    /* --page-background-image: url(../images/cover-image-dark.png); */
-    /* --page-title-color: var(--purple-color, #db00ff);
+    --page-text-color: var(--pink-color, #f1b2ce);
+    --page-second-text-color: var(--black-color, #000028);
+    --page-background-image: url(../images/cover-image-dark.png);
+    --page-title-color: var(--purple-color, #db00ff);
     --menu-border-hover-color: 1px solid rgb(255 0 112 / 0.4);
     --decorated-zone-color: var(--red-color, #ff0070);
     --content-title-color: var(--red-color, #ff0070);
     --content-link-shadow-color: var(--red-color, #ff0070);
     --accent-color: var(--red-color, #ff0070);
   
-    transition: all 1s; */
+    transition: all 1s;
   }
 }

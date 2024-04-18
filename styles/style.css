@@ -211,7 +211,7 @@
 /* FOOTER */
 
 .footer {
-  position: relative;
+  /* position: relative; */
   display: grid;
   background-color: transparent;
   min-block-size: calc(668 / 16 * 1rem);

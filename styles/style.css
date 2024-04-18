@@ -1,11 +1,27 @@
 
 /* СТИЛИ ДЛЯ ТЁМНОЙ ТЕМЫ */
 
-.page {
+.html {
   position: relative;
+}
+
+.page {
   /* color: var(--page-text-color); */
   font-family: var(--page-font, Arial, sans-serif);
+  background-color: #000028;
   /* font-size: var(--page-text-size); */
+  /* background-image: url(../images/cover-image-dark.png); */
+  /* background-position: center;
+  background-size: cover;
+  background-attachment: fixed; */
+}
+
+.page::after {
+  position: absolute;
+  /* z-index: 1; */
+  content: '';
+  display: block;
+  inset: 0;
   background-image: url(../images/cover-image-dark.png);
   background-position: center;
   background-size: cover;
@@ -213,7 +229,6 @@
 .footer {
   /* position: relative; */
   display: grid;
-  background-color: transparent;
   min-block-size: calc(668 / 16 * 1rem);
 }
 

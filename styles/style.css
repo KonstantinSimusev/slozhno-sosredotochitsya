@@ -1,27 +1,10 @@
 
 /* СТИЛИ ДЛЯ ТЁМНОЙ ТЕМЫ */
 
-.html {
-  position: relative;
-}
-
 .page {
   /* color: var(--page-text-color); */
   font-family: var(--page-font, Arial, sans-serif);
-  background-color: #000028;
   /* font-size: var(--page-text-size); */
-  /* background-image: url(../images/cover-image-dark.png); */
-  /* background-position: center;
-  background-size: cover;
-  background-attachment: fixed; */
-}
-
-.page::after {
-  position: absolute;
-  /* z-index: 1; */
-  content: '';
-  display: block;
-  inset: 0;
   background-image: url(../images/cover-image-dark.png);
   background-position: center;
   background-size: cover;
@@ -72,33 +55,33 @@
 }
 
 .decorated-text {
-  position: absolute;
+  /* position: absolute;
   top: clamp(0.625rem, -1.25rem + 8vw, 1.25rem);
   right: clamp(2.4375rem, 0.5625rem + 8vw, 3.0625rem);
-  /* color: var(--decorated-text-color); */
+  color: var(--decorated-text-color); */
 }
 
 .decorated-text::before {
-  content: 'Rec';
+  /* content: 'Rec';
   position: absolute;
   top: 0;
   right: 0;
   display: block;
   color: currentColor;
-  text-transform: uppercase;
+  text-transform: uppercase; */
 }
 
 .decorated-text::after {
-  content: '';
+  /* content: '';
   position: absolute;
   top: calc(8 / 16 * 1rem);
   left: calc(11 / 16 * 1rem);
   display: block;
   border-radius: 50%;
   box-shadow: 0 0 4px 2px currentColor;
-  /* background-color: currentColor; */
+  background-color: currentColor;
   inline-size: calc(9 / 16 * 1rem);
-  block-size: calc(9 / 16 * 1rem);
+  block-size: calc(9 / 16 * 1rem); */
 }
 
 .header__theme-menu {

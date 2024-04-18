@@ -6,9 +6,19 @@
   /* color: var(--page-text-color); */
   font-family: var(--page-font, Arial, sans-serif);
   /* font-size: var(--page-text-size); */
-  background-image: url(../images/cover-image-dark.png);
+  /* background-image: url(../images/cover-image-dark.png);
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
+  background-attachment: fixed;
+}
+
+.page::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  display: block;
+  background-image: url(../images/cover-image-dark.png);
   background-attachment: fixed;
 }
 
@@ -20,6 +30,10 @@
   grid-template-rows: 1fr auto 1fr;
   align-items: center;
   padding: clamp(0.625rem, -1.25rem + 8vw, 1.25rem);
+  /* background-image: url(../images/cover-image-dark.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; */
 }
 
 .header,
@@ -106,7 +120,7 @@
 }
 
 .header__title {
-  position: relative;
+  /* position: relative; */
   inset-inline-end: clamp(0rem, -3.75rem + 16vw, 1.25rem);
 }
 
@@ -212,7 +226,7 @@
 /* FOOTER */
 
 .footer {
-  position: relative;
+  /* position: relative; */
   display: grid;
   min-block-size: calc(668 / 16 * 1rem);
   background-color: #000028;

@@ -5,53 +5,53 @@
 */
 
 .page.theme_light {
-  --page-text-color: var(--gray-color, #353430);
-  --page-second-text-color: var(--gray-color, #353430);
+  /* --page-text-color: var(--gray-color, #353430);
+  --page-second-text-color: var(--gray-color, #353430); */
   --page-background-image: url(../images/cover-image-light.png);
-  --page-title-color: var(--violet-color, #ffc2e6);
+  /* --page-title-color: var(--violet-color, #ffc2e6);
   --menu-border-hover-color: 1px solid rgb(50 49 45 / 0.4);
   --decorated-zone-color: var(--gray-color, #353430);
   --content-title-color: var(--gray-color, #353430);
   --content-link-shadow-color: var(--magenta-color, #ff8dcb);
   --accent-color: var(--magenta-color, #ff8dcb);
 
-  transition: all 1s;
+  transition: all 1s; */
 }
 
 .page.theme_light .decorated-text {
-  display: none;
+  /* display: none; */
 }
 
 @media (width <= 768px) {
   .page.theme_light .header__title-shadow,
   .page.theme_light .footer__title-shadow {
-    --page-title-shadow-color: var(--page-title-shadow-light-color);
+    /* --page-title-shadow-color: var(--page-title-shadow-light-color); */
   }
 }
 
 @media (prefers-color-scheme: light) {
   .page {
-    --page-text-color: var(--gray-color, #353430);
-    --page-second-text-color: var(--gray-color, #353430);
+    /* --page-text-color: var(--gray-color, #353430);
+    --page-second-text-color: var(--gray-color, #353430); */
     --page-background-image: url(../images/cover-image-light.png);
-    --page-title-color: var(--violet-color, #ffc2e6);
+    /* --page-title-color: var(--violet-color, #ffc2e6);
     --menu-border-hover-color: 1px solid rgb(50 49 45 / 0.4);
     --decorated-zone-color: var(--gray-color, #353430);
     --content-title-color: var(--gray-color, #353430);
     --content-link-shadow-color: var(--magenta-color, #ff8dcb);
     --accent-color: var(--magenta-color, #ff8dcb);
   
-    transition: all 1.5s;
+    transition: all 1.5s; */
   }
 
   .decorated-text {
-    display: none;
+    /* display: none; */
   }
 
   @media (width <= 768px) {
     .header__title-shadow,
     .footer__title-shadow {
-      --page-title-shadow-color: var(--page-title-shadow-light-color);
+      /* --page-title-shadow-color: var(--page-title-shadow-light-color); */
     }
   }
 }
